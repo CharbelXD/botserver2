@@ -30,7 +30,7 @@ app.listen(process.env.PORT || 5000, async () => {
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
-const web_link = "APP URL";
+const web_link = "https://godzillaonton.netlify.app/";
 
 bot.start((ctx) => {
   const startPayload = ctx.startPayload;
@@ -38,9 +38,8 @@ bot.start((ctx) => {
   // const urlSentTwo = `${web_linkTwo}?ref=${startPayload}`;
   const user = ctx.message.from;
   const userName = user.username ? `@${user.username}` : user.first_name;
-  ctx.replyWithMarkdown(`*Hey, ${userName}! Welcome to MaxiTap!*
-
-Click on Play Now and Tap on the coin and see your balance rise🔥 Eran tokens and anticipate huge airdrops!`, {
+  ctx.replyWithMarkdown(`*Hey, ${userName}! Welcome To Godzilla On Ton Tapp!
+  Start Earning $GODZ Tokens Now!`, {
       reply_markup: {
           inline_keyboard: [
             [{ text: "⚡️Play now!⚡️", web_app: { url: urlSent } }]
