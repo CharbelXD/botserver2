@@ -38,9 +38,9 @@ bot.start((ctx) => {
   // const urlSentTwo = `${web_linkTwo}?ref=${startPayload}`;
   const user = ctx.message.from;
   const userName = user.username ? `@${user.username}` : user.first_name;
-  ctx.replyWithMarkdown(`*Hey, ${userName}! Welcome to MaxiTap!*
+  ctx.replyWithMarkdown(`*Hey, ${userName}! Welcome to Godzilla Tap App!*
 
-Click on Play Now and Tap on the coin and see your balance rise🔥 Eran tokens and anticipate huge airdrops!`, {
+Click on Play Now to start mining $GODZ Token`, {
       reply_markup: {
           inline_keyboard: [
             [{ text: "⚡️Play now!⚡️", web_app: { url: urlSent } }]
