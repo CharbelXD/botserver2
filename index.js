@@ -45,7 +45,7 @@ Click on Play Now to start mining $GODZ Token`, {
       reply_markup: {
           inline_keyboard: [
             [{ text: "⚡️Play now!⚡️", web_app: { url: urlSent } }]
-            [{ text: "Join Community🧩", web_app: { url: urlSentTwo } }]
+             [{ text: "Join Community🧩", web_app: { url: urlSentTwo } }]
             // [{ text: "Bot App Demo 2 🧩", web_app: { url: urlSentTwo } }],
           
           ],
