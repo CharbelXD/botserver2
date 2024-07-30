@@ -31,6 +31,7 @@ app.listen(process.env.PORT || 5000, async () => {
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
 const web_link = "https://godzillaonton.netlify.app/";
+const community_link = "https://t.me/godzillaonton";
 
 bot.start((ctx) => {
   const startPayload = ctx.startPayload;
@@ -44,6 +45,7 @@ Click on Play Now to start mining $GODZ Token`, {
       reply_markup: {
           inline_keyboard: [
             [{ text: "⚡️Play now!⚡️", web_app: { url: urlSent } }]
+             [{ text: "Join our Community", url: community_link }] 
             // [{ text: "Bot App Demo 2 🧩", web_app: { url: urlSentTwo } }],
           
           ],
