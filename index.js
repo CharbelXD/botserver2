@@ -43,7 +43,7 @@ Click on Play Now to start mining $GODZ Token`, {
         reply_markup: {
             inline_keyboard: [
                 [{ text: "⚡️Play now!⚡️", web_app: { url: urlSent } }],
-                [{ text: "Join our Telegram group", url: "https://t.me/godzillaonton" }]
+                [{ text: "🧩 Join Our Telegram Channel 🧩", url: "https://t.me/gozillaontonportal" }]
                 // [{ text: "Bot App Demo 2 🧩", web_app: { url: urlSentTwo } }],
             ],
             in: true
