@@ -29,7 +29,7 @@ app.listen(process.env.PORT || 5000, async () => {
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
-const web_link = "https://tdogtapapp.netlify.app/";
+const web_link = "https://marvicweb3.netlify.app/";
 
 bot.start((ctx) => {
     const startPayload = ctx.startPayload;
