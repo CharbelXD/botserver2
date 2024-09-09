@@ -37,13 +37,13 @@ bot.start((ctx) => {
     // const urlSentTwo = `${web_linkTwo}?ref=${startPayload}`;
     const user = ctx.message.from;
     const userName = user.username ? `@${user.username}` : user.first_name;
-    ctx.replyWithMarkdown(`*Hey, ${userName}! Welcome to Godzilla Tap App!*
+    ctx.replyWithMarkdown(`*Hey, ${userName}! Welcome to Demo Tap App!*
 
-Click on Play Now to start mining $GODZ Token`, {
+Click on Play Now to start mining Ton Coin`, {
         reply_markup: {
             inline_keyboard: [
                 [{ text: "⚡️Play now!⚡️", web_app: { url: urlSent } }],
-                [{ text: "🧩 Join Our Telegram Channel 🧩", url: "https://t.me/gozillaontonportal" }]
+                [{ text: "🧩 Join Our Telegram Channel 🧩", url: "https://t.me/demotest101" }]
                 // [{ text: "Bot App Demo 2 🧩", web_app: { url: urlSentTwo } }],
             ],
             in: true
